@@ -1,3 +1,11 @@
+"use strict";
+const notas = document.querySelector(".notas");
+
+const adicionaTitulo = document.querySelector(".tituloNota");
+const adicionaTexto = document.querySelector(".textoNota");
+const botaoAdiciona = document.querySelector(".botaoAdicionar");
+const deletarNotas = document.querySelector(".botaoDeletar");
+
 function addNote() {
     const noteContent = document.getElementById('new-note-content').value;
     if (noteContent.trim() === "") {
