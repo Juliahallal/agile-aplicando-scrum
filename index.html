@@ -1,25 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bloco de Anotações</title>
-    <link rel="stylesheet" href="styles.css">
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="estilo.css">
+     <title>Bloco de Notas - Aula 29.05</title>
 </head>
 <body>
-    <div class="container">
-        <h1>Bloco de Anotações</h1>
-        <div class="new-note">
-            <textarea id="new-note-content" placeholder="Digite sua nota aqui..."></textarea>
-            <select id="note-category">
-                <option value="Pessoal">Pessoal</option>
-                <option value="Trabalho">Trabalho</option>
-                <option value="Estudos">Estudos</option>
-            </select>
-            <button onclick="addNote()">Adicionar Nota</button>
-        </div>
-        <div class="notes" id="notes"></div>
-    </div>
-    <script src="script.js"></script>
+     <header> 
+          <figure><img src="/logo.png" alt=""></figure>
+          <h1>Bloco de Notas</h1>
+     </header>
+     <section class="novaNota">
+          <div class="criarNota">
+               <input class="tituloNota" type="text" placeholder="Título da Nota">
+               <textarea class="textoNota" placeholder="Descrição"></textarea>
+               <button class="botaoAdicionar">Adicionar Nota</button>
+               <button class="botaoDeletar">Deletar todas as notas</button>
+          </div>
+     </section>
+     <section class="notas">
+
+     </section>
+     <footer> </footer>
+     <script src="blocoDeNotas.js"></script>
 </body>
 </html>
