@@ -1,0 +1,31 @@
+.boxNota{
+    background-color: rgb(255, 255, 255);
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.boxNota input{
+    width: 80%;
+    margin: 10px auto;
+    font-size: 18px;
+    border-bottom: 2px solid #000;
+}
+
+.boxNota textarea{ 
+    width: 90%;
+    margin: 10px auto;
+    font-size: 16px;
+    border: 0;
+}
+
+.boxNota button{
+    margin: 0 auto;
+    background-color: rgb(120, 0, 0);
+    color: #fff;
+}
