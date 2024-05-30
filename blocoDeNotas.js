@@ -1,5 +1,5 @@
 "use strict";
-const notas = document.querySelector(".notas");
+const notas = document.querySelector(".notes");
 
 const adicionaTitulo = document.querySelector(".tituloNota");
 const adicionaTexto = document.querySelector(".textoNota");
